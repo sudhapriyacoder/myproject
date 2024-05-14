@@ -27,3 +27,45 @@
     flex-wrap: wrap;
   }
 }
+
+/* styles.css */
+.tab-buttons button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.tab-buttons button.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* styles.css */
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.faq-answer {
+  margin-top: 10px;
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+}
+
+.arrow-down {
+  transform: rotate(0deg);
+}
